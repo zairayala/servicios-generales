@@ -1,0 +1,85 @@
+#Services{
+    background-color: var(--primary-color-two);
+}
+#Services .text-center{
+    color: #fff;
+}
+.spacing-2{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+} 
+
+.card{
+    border-radius: 10px;
+    border: none;
+}
+
+.card-body{
+    color: var(--primary-color-two);
+    padding: 1.5rem;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+}
+
+.card-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.btnService{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btnService:hover{
+    opacity: 70%;
+    color: var(--primary-color-one);
+    transition: 0.2s ease-in-out;
+}
+
+.icon-box{
+    width: 80%;
+    margin-top: -3px;
+}
+
+.icon-box-border{
+    background-color: var(--primary-color-one);
+    height: .3rem;
+    width: 100%;
+}
+
+.icon-box i{
+    font-size: 2.5rem;
+}
+
+.bi-check-lg{
+    background-color: var(--primary-color-one);
+    color: #fff;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.slick-slide{
+    padding: 1rem;
+}
+
+.slick-list{
+    width: 90%;
+}
+
+.slick-slider{
+    display: flex!important;
+    justify-content: center;
+}

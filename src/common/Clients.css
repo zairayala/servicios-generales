@@ -1,0 +1,15 @@
+#Clients {
+    background-color: var(--primary-color-three);
+}
+
+#Clients .container .text-center .title-header {
+    color: var(--primary-color-one);
+}
+
+.fill-2 {
+    fill: var(--primary-color-three) !important;
+}
+
+#Clients .slick-slider .slick-prev, #Clients .slick-slider .slick-next{
+    display: none!important;
+}

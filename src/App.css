@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500&family=Nunito:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Wix+Madefor+Text&display=swap');
+
+:root {
+    --primary-color-one: #078586;
+    --primary-color-two: #282f3b;
+    --primary-color-three: #f0f3f9;
+    --color-white:#fff;
+    --primary-color-four:#fafcff;
+    --primary-color-five: #1f2530;
+    --text-color-dark: #4a4e56;
+    --text-color-dark-two: #888888;
+    --text-color-light: #aaafb8;
+    --heading-dark: #282f3b;
+    --link-color-dark: #282f3b;
+    --border-color-dark: #e4e7ee; 
+    --border-color-dark-two:#373e4a;
+    --border-color-light: #fbfcfe;
+    --menu-color: #282f3b;
+    --menu-color-white: #ffffff;
+    --menu-dropdown-color: #282f3b;
+    --menu-active-color: #078586;
+    --box-shadow: 0px 0px 40px 0px rgba(0,0,0,.09);
+    --box-shadow-two: 0px 3px 16px 0px rgba(0 , 0 , 0 , .05);
+    --footer-default-bgcolor: #1f2530;
+    --preloader-background-color: #078586;
+    --bg-light-color-one:#F0F3F947;
+    --bg-light-color-two:#F0F3F969;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color-dark);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    text-decoration: none;
+    color: var(--primary-color-one);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.spacing{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.centered{
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-header{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title-content{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+}
+
+.text-content{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.mr-auto{
+    margin-right: .5rem;
 }

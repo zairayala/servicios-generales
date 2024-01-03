@@ -1,0 +1,31 @@
+.top-bar{
+    background-color: var(--primary-color-two);
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.top-bar .container .text-end div{
+    padding-left: 2rem;
+}
+.top-bar .container {
+    font-size: 18px!important;
+}
+.top-bar .container .text-end div i{
+    padding-right: 5px;
+    color: var(--primary-color-one);
+}
+.top-bar .container .d-flex p{
+    padding-left: 2rem;
+}
+.top-bar{
+    background-color: var(--primary-color-two);
+    color: #ffffff;
+}
+.top-bar .container div p{
+    margin-top: 1rem!important;
+}
+.button1{
+    background-color: var(--primary-color-one);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}

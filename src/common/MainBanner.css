@@ -1,0 +1,83 @@
+.h-banner {
+    height: 800px;
+    object-fit: cover;
+}
+.content-frame{
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    height: auto;
+    transform: rotate(180deg)
+}
+
+.content-frame svg{
+    width: calc(100% + 1.3px);
+    height: 62px;
+}
+.content-frame svg path{
+    fill: #fff;
+}
+
+.carousel-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    right: -15%;
+}
+
+.carousel-title h1{
+    font-size: 100px;
+    text-shadow: 4px 4px 2px rgba(7,133,134,0.6);
+    font-weight: 600;
+}
+
+.carousel-title p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.carousel-title .d-flex{
+    margin-top: 2rem;
+}
+
+.carousel-title .d-flex .button3{
+    margin-right: 5%;
+}
+
+.carousel-item img{
+    filter: brightness(0.5);
+}
+
+.button2{
+    border-radius: 10px 0px 10px 0px;
+    border: 0.5px solid #fff;
+    background-color: unset;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.button2:hover{
+    border: 0.5px solid black;
+    color: black;
+    transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out !important;
+    -o-transition: 0.2s ease-in-out !important;
+    -ms-transition: 0.2s ease-in-out !important;
+}
+
+.button3{
+    border-radius: 10px 0px 10px 0px;
+    border: 0.5px solid var(--primary-color-one);
+    background-color: var(--primary-color-one);
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.button3:hover{
+    background-color: #fff;
+    color: var(--primary-color-one);
+    transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out !important;
+    -o-transition: 0.2s ease-in-out !important;
+    -ms-transition: 0.2s ease-in-out !important;
+}

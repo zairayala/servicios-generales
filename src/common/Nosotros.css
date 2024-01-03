@@ -1,0 +1,67 @@
+#Nosotros .centered .w-50 img{
+    border-radius: 3%;
+}
+
+#Nosotros .centered .w-50 .img-2{
+    width: 20rem;
+    z-index: 50;
+    border: 10px solid #fff;
+}
+
+#Nosotros .centered .w-50 .img-3{
+    width: 25rem;
+}
+
+#Nosotros .centered .aboutus-content{
+    padding-left: 2rem;
+}
+
+#Nosotros .centered .aboutus-content .text-start .title-header{
+    color: var(--primary-color-one);
+}
+
+#Nosotros .centered .aboutus-content .centered .spacing-3 h4 {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+#Nosotros .centered .aboutus-content .centered .spacing-3 p {
+    font-weight: 300;
+}
+
+.spacing-3{
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+
+.icono-bg{
+    background-color: var(--primary-color-three);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    z-index: -10;
+    position: absolute;
+    top: 50%;
+    transform: translate(20%,-50%)!important;
+}
+
+.icono{
+    padding: .5rem;
+    left: 15px;
+    z-index: 10;
+    width: 4.5rem;
+}
+
+.content-frame2{
+    left: 0;
+    z-index: 99;
+    height: auto;
+}
+
+.content-frame2 svg{
+    width: calc(100%);
+    height: 62px;
+}
+.content-frame2 svg path{
+    fill: #fff;
+}
