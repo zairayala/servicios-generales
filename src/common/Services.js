@@ -10,13 +10,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default class Services extends Component {
 	render() {
 		const settings = {
-			dots: true,
+			dots: false,
 			infinite: true,
 			speed: 500,
 			slidesToShow: 3,
 			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 100000,
+			autoplay: false,
+			autoplaySpeed: 5000,
 			pauseOnHover: true
 		};
 
@@ -34,13 +34,15 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-1-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 							<div className="card-body">
-								<h5 className="card-title">Servicio 1</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Instalaciones sanitarias</h5>
+								<p className="card-text">Contamos con personal técnico mas calificado y
+									los equipos de ultima generación en detección de
+									fugas de agua y desagüe, alcantarillado, instalación de tubería de polipropileno, detección de fugas en inodoros y urinarios, detección de fugas en tanques y cisternas, detección de fugas en red de agua y desagüe, detección de filtraciones en superficies, reparación de filtración de red de agua, reparación de filtración de red de desagüe</p>
 								<Link to="/servicesdetail" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -49,14 +51,15 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-2-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 2</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Trabajos en electricidad</h5>
+								<p className="card-text">Mantenimientos, preventivos y correctivos de instalaciones eléctricas en viviendas e
+									industrias, asi como de equipos eléctricos. Todo bajo las normas del CNE y seguro SCTR y respectivas EPPs.</p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -65,14 +68,17 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-3-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 3</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Sistemas aire acondicionado</h5>
+								<p className="card-text">Reparación, mantenimiento e
+									instalación de equipos de aire acondicionado y frío en
+									todas las marcas de centros comerciales, empresas
+									privadas, públicas y domésticas</p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -81,14 +87,16 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-4-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 4</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Trabajos en pintura y texturas</h5>
+								<p className="card-text">Contamos con el personal técnico mas calificado y
+									equipos para trabajo en altura tipo andamios
+									colgantes certificados y andamios convencionales. Trabajos en impermealizaciones, empastados, texturas, barnizado de puertas, </p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -97,14 +105,21 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-5-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 5</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Trabajos < br/>en Drywall</h5>
+								<p className="card-text">-Instalaciones en drywall, cielo raso, tabiqueria en drywall, cielo raso en baldosas, diseños arquitectonicos, tableros eléctricos, grupos electrógenos, sistema de puesta a tierra, entre otros, bombas de agua ( Sumergibles, hidroneumático y de presón constante)
+, aterramientos eléctricos
+, instalación y suministro de luminarias y accesorios
+, electrificación
+, instalación sanitaria
+-Mantenimiento de drywall y cielo raso
+-Servicios generales, construcción civil y otros
+-Diseños arquitectonicos</p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -113,14 +128,20 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-6-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 6</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Estructuras metálicas</h5>
+								<p className="card-text">Fabricación y montaje de estructuras metálicas a
+									detalle, soldadura Tig-Mig para centros comerciales,
+									empresas privadas, públicas y domésticas. Tales como: plataformas, coberturas y estructuras, puertas enrollables galvanizadas, mantenimiento y reparación de puertas enrollables, puerta Corrediza, levadiza y batiente, ventanas.
+- Rejillas
+- Canaletas fluviales
+- Suministro e instalación de ruedas fenólicas y garruchas para coches de
+centros comerciales</p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>
@@ -129,14 +150,14 @@ export default class Services extends Component {
 								<img src={banner1} className="card-img-top" alt="" />
 								<div className='icon-box centered position-relative'>
 									<div className='icon-box-border '>
-										<i class="bi bi-check-lg position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
+										<i class="bi bi-7-circle position-absolute top-50 end-0 translate-middle-y centered align-items-center"></i>
 									</div>
 								</div>
 							</div>
 
 							<div className="card-body">
-								<h5 className="card-title">Servicio 7</h5>
-								<p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quisquam laudantium rem vel!</p>
+								<h5 className="card-title">Otros servicios generales</h5>
+								<p className="card-text">Además de los servicios presentados tambien realizamos enchape de vinilico, mayólica y porcelanatos, carpintería en general, mantenimiento de áreas verdes, manto asfáltico, entre otros trabajos servicios generales.</p>
 								<Link to="#" className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</Link>
 							</div>
 						</div>

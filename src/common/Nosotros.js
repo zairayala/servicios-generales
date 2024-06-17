@@ -19,24 +19,37 @@ export default function Nosotros() {
             <div className='text-start'>
               <p className='title-header'><i className="bi bi-wrench-adjustable mr-auto"></i>SOBRE NOSOTROS</p>
               <h1 className='title-content'>Ofrecemos diversos servicios</h1>
-              <p className='text-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga quis, expedita ipsa vitae beatae doloribus voluptatum consectetur sapiente temporibus, nostrum quam quaerat dolore saepe minima, fugiat ab fugit quod!</p>
+              <p className='text-content'>Somos una empresa dedicada a servicios
+                generales, que le brinda seguridad y calidad en cada servicio. Esto incluye un equipo
+                con gran experiencia en el rubro retail y empresarial el cual le permitirá tener un servicio eficaz.
+                Brindamos trabajos lo más
+                prolijo posible con los estándares de calidad exigidos en el
+                mercado actual.</p>
             </div>
             <div className='centered mt-5'>
-              <div className='spacing-3'>
-                <div className='position-relative'>
-                  <img src={idea} alt="" className='icono' />
-                  <div className='icono-bg '></div>
-                </div>
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, accusamus!</p>
-              </div>
-              <div className='spacing-3'>
+              <div className='spacing-3 w-50'>
                 <div className='position-relative'>
                   <img src={solution} alt="" className='icono' />
                   <div className='icono-bg '></div>
                 </div>
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, accusamus!</p>
+                <h4>Misión</h4>
+                <p>Satisfacer las necesidades de nuestros
+                  clientes brindando servicios de calidad, eficiencia y seguridad con preservacion del medio ambiente
+                  a precios competitivos, promover un
+                  excelente clima laboral. Además contribuir al desarrollo e investigación
+                  de nuevas tecnologías</p>
+              </div>
+              <div className='spacing-3 w-50'>
+                <div className='position-relative'>
+                  <img src={idea} alt="" className='icono' />
+                  <div className='icono-bg '></div>
+                </div>
+                <h4>Visión</h4>
+                <p>Afianzarnos como una empresa
+                  líder en Servicios Generales en el
+                  Perú. Nos basamos en el trabajo
+                  responsable, dedicado e innovador
+                  de sus directivos y colaboradores.</p>
               </div>
             </div>
           </div>

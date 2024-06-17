@@ -23,16 +23,7 @@ export default function MainNav() {
                 <li class="nav-item">
                   <a class="nav-link" href="#Nosotros">Nosotros</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicios<i class="bi bi-chevron-down"></i>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+                
 
                 <li class="nav-item">
                   <Link class="nav-link" to="/servicesdetail">Servicios<i class="bi bi-chevron-down"></i></Link>

@@ -103,3 +103,12 @@
     background-color: var(--primary-color-one);
     color: #fff;
 }
+
+.list-group-item.active{
+    background-color: var(--primary-color-one);
+    border-color: var(--primary-color-one);
+}
+
+.list-group-item:hover{
+    cursor: pointer;
+}

@@ -20,16 +20,16 @@ export default function ServicesDetail() {
     e.currentTarget.classList.add("active");
 
   }
-   
+
   useEffect(() => {
-    if(servicioSeleccionado.length===0){
-      document.getElementById("box-service").style.display="none";
-      const myStr = "FirstLine\n\t\SecondLine\n\ThirdLine"; 
+    if (servicioSeleccionado.length === 0) {
+      document.getElementById("box-service").style.display = "none";
+      const myStr = "FirstLine\n\t\SecondLine\n\ThirdLine";
       console.log(myStr);
-    }else{
-      document.getElementById("box-service").style.display="block";
+    } else {
+      document.getElementById("box-service").style.display = "block";
     }
-    
+
 
   }, [servicioSeleccionado])
 
@@ -85,7 +85,7 @@ export default function ServicesDetail() {
               </div>
             </div>
             <div>
-              <form action="send.php" className='form-contact' method='post'>
+              <form action="https://formsubmit.co/ximzar123@gmail.com" className='form-contact' method='post'>
                 <div className='d-flex'>
                   <div className=''>
                     <div className='content-between w-100'>
@@ -154,7 +154,14 @@ export default function ServicesDetail() {
                     className='form-control-contact'>
                   </textarea>
                 </div>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_subject" value="Nueva solicitud de servicio" />
+                <input type="hidden" name="_next" value="http://localhost:3000/" />
+                {/* <input type="hidden" name="_cc" value="another@email.com" /> */}
+
                 <button type='submit' className='button3 w-100'>ENVIAR DATOS</button>
+
+
               </form>
 
             </div>

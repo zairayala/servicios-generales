@@ -17,7 +17,7 @@ export default function Contact() {
               <p className='text-content'>Ingresa tus datos en el formulario y nuestro equipo se pondrá en contacto.</p>
             </div>
 
-            <form action="send.php" className='form-contact' method='post'>
+            <form action="https://formsubmit.co/ximzar123@gmail.com" className='form-contact' method='post'>
               <div className='d-flex'>
                 <div className=''>
                   <div className='content-between w-100'>
@@ -28,8 +28,8 @@ export default function Contact() {
                     type="text"
                     className='form-control-contact'
                     name='name'
-                    placeholder='Empresa123' 
-                    required/>
+                    placeholder='Empresa123'
+                    required />
                 </div>
                 <div className=''>
                   <div className='content-between w-100'>
@@ -41,8 +41,8 @@ export default function Contact() {
                     className='form-control-contact'
                     name='email'
                     placeholder='ejemplo@serviciosgenerales.com'
-                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" 
-                    required/>
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    required />
                 </div>
               </div>
               <div className='d-flex'>
@@ -56,8 +56,8 @@ export default function Contact() {
                     className='form-control-contact'
                     name='phone'
                     placeholder='999999999'
-                    pattern="[0-9]{9}" 
-                    required/>
+                    pattern="[0-9]{9}"
+                    required />
                 </div>
                 <div className=''>
                   SERVICIO<br />
@@ -78,15 +78,22 @@ export default function Contact() {
                   <span>MENSAJE (opcional)</span>
                   <i class="bi bi-envelope-fill"></i>
                 </div>
-                <textarea 
-                name="message" 
-                id="" 
-                cols="30" 
-                rows="10" 
-                className='form-control-contact'>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  className='form-control-contact'>
                 </textarea>
               </div>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="Nueva solicitud de servicio" />
+              <input type="hidden" name="_next" value="http://localhost:3000/" />
+              {/* <input type="hidden" name="_cc" value="another@email.com" /> */}
+
               <button type='submit' className='button3 w-100'>ENVIAR DATOS</button>
+
+
             </form>
 
           </div>

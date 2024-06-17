@@ -100,5 +100,6 @@
     margin-bottom: auto;
 }
 .footer-copyright text{
-    color: rgb(10, 194, 194)
+    color: var(--primary-color-one);
+    font-weight: 500;
 }

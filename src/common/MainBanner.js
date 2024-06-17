@@ -38,8 +38,8 @@ export default function MainBanner() {
                     <div className="carousel-item">
                         <img src={banner3} className="d-block w-100 h-banner" alt="..." />
                         <div class="carousel-title d-none d-md-block top-50 start-50 translate-middle">
-                            <h2>Soluciones para tu empresa</h2>
-                            <h1 className='banner-title'>Excelencia de servicios para tu empresa</h1>
+                            <h2>Seguridad y calidad</h2>
+                            <h1 className='banner-title'>Excelencia de servicios</h1>
                             <p>Brindamos resultados precisos, confiables y de calidad</p>
                             <div className='d-flex justify-content-center'>
                                 <Link to="#" className='button3'>Servicios</Link>

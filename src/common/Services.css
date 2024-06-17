@@ -4,6 +4,10 @@
 #Services .text-center{
     color: #fff;
 }
+
+#Services .content-frame{
+    transform: scale(-1);
+}
 .spacing-2{
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -27,7 +31,7 @@
 }
 
 .card-title{
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700;
     font-family: 'Josefin Sans';
 }
@@ -35,11 +39,15 @@
 .card-text{
     font-size: 1.2rem;
     font-weight: 300;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp:5;
 }
 
 .btnService{
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .btnService:hover{
@@ -63,7 +71,7 @@
     font-size: 2.5rem;
 }
 
-.bi-check-lg{
+.bi-1-circle, .bi-2-circle, .bi-3-circle, .bi-4-circle, .bi-5-circle, .bi-6-circle, .bi-7-circle{
     background-color: var(--primary-color-one);
     color: #fff;
     border-radius: 50%;

@@ -11,8 +11,14 @@ export default function MainFooter() {
         <div className='row container'>
           <div className='col'>
             <img src={logo} alt="" className='w-50 mb-4' />
-              <p className='mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit dignissimos autem, voluptatum vero ullam mollitia accusamus dolor adipisci quidem libero cum ipsa vitae quae nam rerum fuga itaque reiciendis.</p>
-              <Link to="#" className='button2'>Leer más</Link>
+            <p className='mb-5'>Empresa independiente que brinda una gama de servicios 
+con mucha seriedad y responsabilidad.
+Nos evocamos principalmente al rubro de retail y empresarial 
+por otro lado rescatar que nuestro trabajo está en satisfacer la 
+necesidad de nuestros clientes brindando trabajos lo más 
+prolijo posible con los estándares de calidad exigidos en el 
+mercado actual.</p>
+            <Link to="#" className='button2'>Leer más</Link>
           </div>
           <div className='col'>
             <h2>Información</h2>
@@ -50,11 +56,12 @@ export default function MainFooter() {
             <div className='contact mt-4'>
               <div>
                 <h2><i class="bi bi-geo-alt-fill"></i>Dirección</h2>
-                <p>San Juan de Miraflores 15806</p>
+                <p>Jr. Junín Mz. Ñ10 Lote 4 Sector
+                  Leoncio Prado, Pamplona Alta - S.J.M</p>
               </div>
               <div>
                 <h2><i class="bi bi-telephone-fill"></i>Teléfono</h2>
-                <p>+989999999</p>
+                <p>942 025 618 - 966 968 211</p>
               </div>
               <div>
                 <h2><i class="bi bi-envelope-fill"></i>E-mail</h2>
