@@ -48,12 +48,14 @@
 .btnService{
     font-size: 1.2rem;
     font-weight: 500;
+    transition: 0.2s ease-in-out;
+    color: var(--primary-color-one);
 }
 
 .btnService:hover{
+    cursor: pointer;
     opacity: 70%;
     color: var(--primary-color-one);
-    transition: 0.2s ease-in-out;
 }
 
 .icon-box{

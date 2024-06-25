@@ -1,37 +1,28 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { Service } from './service.js';
-import './ServicesDetail.css';
 import banner from '../assets/banner1.jpg';
-import { Link } from 'react-router-dom';
-import srv1 from '../assets/srv1.jpg';
+import { Link, useLocation } from 'react-router-dom';
+import './ServicesDetail.css';
+
 
 export default function ServicesDetail() {
+  const location = useLocation();
+  const { service } = location.state || {};
 
   const [servicioSeleccionado, setServicioSeleccionado] = useState([]);
 
-  const selectService = (e, values) => {
-
+  const selectService = (values) => {
     setServicioSeleccionado(values);
-    var itemList = document.querySelectorAll("#list-group li");
-    itemList.forEach(item => {
-      item.classList.remove("active");
-    })
-
-    e.currentTarget.classList.add("active");
-
-  }
+  };
 
   useEffect(() => {
-    if (servicioSeleccionado.length === 0) {
-      document.getElementById("box-service").style.display = "none";
-      const myStr = "FirstLine\n\t\SecondLine\n\ThirdLine";
-      console.log(myStr);
-    } else {
-      document.getElementById("box-service").style.display = "block";
-    }
+    setServicioSeleccionado(Service[service]);
+  }, [service]);
 
 
-  }, [servicioSeleccionado])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
 
@@ -53,9 +44,12 @@ export default function ServicesDetail() {
         <div className='row'>
           <div className='col-3'>
             <ul className="list-group" id='list-group'>
-              <li className="list-group-item active">Selecciona un servicio</li>
+              <li className="list-group-item">Selecciona un servicio</li>
               {Service.map((values) => (
-                <li className="list-group-item" key={values.id} onClick={(e) => selectService(e, values)}>{values.title}</li>
+                <li
+                  className={`list-group-item ${servicioSeleccionado.id === values.id ? 'active' : ''}`}
+                  key={values.id}
+                  onClick={() => selectService(values)}>{values.title}</li>
               ))}
             </ul>
           </div>
@@ -78,7 +72,7 @@ export default function ServicesDetail() {
                   <img src={servicioSeleccionado.img} alt="" className='img-fluid' />
 
                 </div>
-                <div >
+                <div>
                   <div className="collapse" id="collapseExample" dangerouslySetInnerHTML={{ __html: servicioSeleccionado.detalledescripcion }}>
                   </div>
                 </div>
@@ -130,14 +124,20 @@ export default function ServicesDetail() {
                   <div className=''>
                     SERVICIO<br />
                     <select name="service" id="" className='form-control-contact'>
-                      <option value="" defaultValue>
+                      <option value="" disabled>
                         Seleccione servicio requerido
                       </option>
-                      <option value="Servicio 1">Servicio 1</option>
-                      <option value="Servicio 2">Servicio 2</option>
-                      <option value="Servicio 3">Servicio 3</option>
-                      <option value="Servicio 4">Servicio 4</option>
-                      <option value="Servicio 5">Servicio 5</option>
+                      {Service.map((values) => (
+
+                        <option 
+                        value={values.title} 
+                        key={values.id} 
+                        selected={servicioSeleccionado.id === values.id}>
+                          {values.title}
+                        </option>
+
+                      ))}
+
                     </select>
                   </div>
                 </div>
@@ -170,5 +170,5 @@ export default function ServicesDetail() {
         </div>
       </section>
     </>
-  )
+  );
 }

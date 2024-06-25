@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease-in-out;
 }
 
 .social-media a{
@@ -38,7 +39,6 @@
 
 .social-media div:hover{
     background-color: var(--primary-color-one);
-    transition: 0.2s ease-in-out;
 }
 
 .social-media div a{
@@ -65,11 +65,13 @@
 .info-list li a{
     color: #fff;
     opacity: 70%;
+    transition: 0.2s ease-in-out;
+    font-weight: 300;
 }
 
 .info-list li a:hover{
     opacity: 100%;
-    transition: 0.2s ease-in-out;
+    padding-left: 8px;
 }
 
 .info-list a span{

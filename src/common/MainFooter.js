@@ -11,42 +11,41 @@ export default function MainFooter() {
         <div className='row container'>
           <div className='col'>
             <img src={logo} alt="" className='w-50 mb-4' />
-            <p className='mb-5'>Empresa independiente que brinda una gama de servicios 
-con mucha seriedad y responsabilidad.
-Nos evocamos principalmente al rubro de retail y empresarial 
-por otro lado rescatar que nuestro trabajo está en satisfacer la 
-necesidad de nuestros clientes brindando trabajos lo más 
-prolijo posible con los estándares de calidad exigidos en el 
-mercado actual.</p>
-            <Link to="#" className='button2'>Leer más</Link>
+            <p className='mb-5'>Empresa independiente que brinda una gama de servicios
+              con mucha seriedad y responsabilidad.
+              Nos evocamos principalmente al rubro de retail y empresarial
+              satisfaciendo la
+              necesidad de nuestros clientes con trabajos prolijos y los estándares de calidad exigidos en el
+              mercado actual.</p>
+            <a href="/#Nosotros" className='button2'>Leer más</a>
           </div>
           <div className='col'>
             <h2>Información</h2>
             <div className='bottom-border'></div>
             <ul className='info-list mt-4'>
               <li>
-                <Link to="#">
+                <a href="/#Nosotros">
                   <span className='bi bi-chevron-right'></span>
                   Nosotros
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a href="/#Services">
                   <span className='bi bi-chevron-right'></span>
                   Servicios
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a href="/#Clients">
                   <span className='bi bi-chevron-right'></span>
                   Clientes
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a href="/#Contact">
                   <span className='bi bi-chevron-right'></span>
                   Contacto
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

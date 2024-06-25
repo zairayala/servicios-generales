@@ -105,8 +105,8 @@
 }
 
 .list-group-item.active{
-    background-color: var(--primary-color-one);
-    border-color: var(--primary-color-one);
+    background-color: var(--primary-color-one)!important;
+    border-color: var(--primary-color-one)!important;
 }
 
 .list-group-item:hover{

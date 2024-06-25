@@ -1,19 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Nosotros.css';
 import idea from '../assets/idea.png'
 import solution from '../assets/solution.png'
 import { ReactComponent as Frame } from '../assets/bannerframe.svg';
+import collage_service from '../assets/collage-service.png'
 
 export default function Nosotros() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <section id='Nosotros' className='spacing-2 container'>
         <div className='centered'>
           <div className='w-50 position-relative'>
-            <img src="https://images.pexels.com/photos/442160/pexels-photo-442160.jpeg" alt="" className='img-fluid' />
-            <img src="https://images.pexels.com/photos/4254160/pexels-photo-4254160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='img-fluid img-2 position-absolute bottom-0 start-0' />
-            <img src="https://images.pexels.com/photos/7359568/pexels-photo-7359568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='img-fluid img-3 position-absolute top-50 end-0'
-            />
+            <img src={collage_service} alt="" className='img-fluid' />
           </div>
           <div className='w-50 aboutus-content'>
             <div className='text-start'>
@@ -34,9 +36,8 @@ export default function Nosotros() {
                 </div>
                 <h4>Misión</h4>
                 <p>Satisfacer las necesidades de nuestros
-                  clientes brindando servicios de calidad, eficiencia y seguridad con preservacion del medio ambiente
-                  a precios competitivos, promover un
-                  excelente clima laboral. Además contribuir al desarrollo e investigación
+                  clientes a precios competitivos con servicios de calidad, seguridad con preservacion del medio ambiente.
+                  Además contribuir al desarrollo e investigación
                   de nuevas tecnologías</p>
               </div>
               <div className='spacing-3 w-50'>

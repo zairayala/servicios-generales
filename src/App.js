@@ -19,7 +19,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<MainContent />} />
-            <Route path="/servicesdetail" element={<ServicesDetail />} />
+            <Route path="/servicesDetail" element={<ServicesDetail />} />
           </Routes>
 
         </main>

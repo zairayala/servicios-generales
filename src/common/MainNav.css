@@ -1,25 +1,55 @@
-#MainNav{
+#MainNav {
     background-color: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.navbar{
+.navbar {
     --bs-navbar-nav-link-padding-x: 1rem;
 }
-.logo{
+
+.logo {
     width: 15%;
 }
-.navbar-expand-lg .navbar-collapse{
+
+.navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
-.bi-chevron-down{
+
+.bi-chevron-down {
     font-size: 12px;
     margin-left: .5rem;
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
     color: var(--menu-active-color) !important;
 }
-.nav-link{
+
+.nav-link {
     color: var(--primary-color-two);
 }
 
+.dropdown-services {
+    list-style: none;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: var(--primary-color-three);
+}
+
+.dropdown-services li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-services:hover .dropdown-services {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border-radius: 5%;
+}
+
+.nav-services {
+    align-self: center;
+    cursor: pointer;
+}
