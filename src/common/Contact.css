@@ -1,4 +1,4 @@
-#Contact .d-flex .img-electrician {
+#Contact .row .img-electrician {
     margin-top: -7%;
 }
 
@@ -10,7 +10,7 @@
     margin-top: 1.5rem;
 }
 
-.form-contact .d-flex, .form-contact .text-area{
+.form-contact .row, .form-contact .text-area{
     justify-content: space-between;
     margin-top: 1.5rem;
 }
@@ -18,10 +18,10 @@
 .form-contact{
     color: var(--primary-color-one);
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
-.form-contact .d-flex div{
+.form-contact .row div{
     width: 47%;
 }
 
@@ -46,4 +46,38 @@
 
 .text-area textarea{
     height: 100px!important;
+}
+
+.contact-info p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #212529a8;
+}
+
+.contact-info .d-flex i{
+    color: var(--primary-color-one);
+}
+
+.contact-info .d-flex p span:first-of-type{
+    color: var(--primary-color-two);
+}
+.contact-info .d-flex i{
+    font-size: 1.5rem;
+}
+.contact-info .d-flex p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.accordion-button{
+    color: var(--primary-color-three);
+    background-color: var(--primary-color-one);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--primary-color-three);
+    color: var(--primary-color-one);
 }

@@ -8,7 +8,7 @@
 }
 
 .logo {
-    width: 15%;
+    width: 10rem;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -50,6 +50,5 @@
 }
 
 .nav-services {
-    align-self: center;
     cursor: pointer;
 }

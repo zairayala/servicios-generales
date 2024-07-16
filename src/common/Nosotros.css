@@ -1,35 +1,35 @@
-#Nosotros .centered .w-50 img{
+#Nosotros .row .w-50 img{
     border-radius: 3%;
 }
 
-#Nosotros .centered .w-50 .img-2{
+#Nosotros .row .w-50 .img-2{
     width: 20rem;
     z-index: 50;
     border: 10px solid #fff;
 }
 
-#Nosotros .centered .w-50 .img-3{
+#Nosotros .row .w-50 .img-3{
     width: 25rem;
 }
 
-#Nosotros .centered .aboutus-content{
+#Nosotros .row .aboutus-content{
     padding-left: 2rem;
 }
 
-#Nosotros .centered .aboutus-content .text-start .title-header{
+#Nosotros .row .aboutus-content .text-start .title-header{
     color: var(--primary-color-one);
 }
 
-#Nosotros .centered .aboutus-content .centered .spacing-3 h4 {
+#Nosotros .row .aboutus-content .row .spacing-4 h4 {
     padding-top: 1rem;
     font-size: 2rem;
 }
 
-#Nosotros .centered .aboutus-content .centered .spacing-3 p {
+#Nosotros .row .aboutus-content .row .spacing-4 p {
     font-weight: 300;
 }
 
-.spacing-3{
+.spacing-4{
     padding-left: .7rem;
     padding-right: .7rem;
 }

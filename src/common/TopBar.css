@@ -3,19 +3,19 @@
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
 }
-.top-bar .container .text-end div{
+.top-bar .container-lg .contact-info div{
     padding-left: 2rem;
 }
-.top-bar .container {
+.top-bar .container-lg {
     font-size: 15px!important;
     padding: 1rem 0;
 }
-.top-bar .container .text-end div i{
+.top-bar .container-lg .contact-info div i{
     padding-right: 7px;
     color: var(--primary-color-one);
     font-size: 17px;
 }
-.top-bar .container .d-flex p{
+.top-bar .container-lg .d-flex p{
     padding-left: 2rem;
 }
 .top-bar{

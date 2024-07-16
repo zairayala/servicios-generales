@@ -13,7 +13,7 @@ export default function MainNav() {
       <div className='container'>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <img src={logo} alt="" className='logo mt-1 mb-1' />
+            <img src={logo} alt="" className='logo img-fluid mt-1 mb-1' />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>

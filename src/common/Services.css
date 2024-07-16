@@ -8,10 +8,6 @@
 #Services .content-frame{
     transform: scale(-1);
 }
-.spacing-2{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-} 
 
 .card{
     border-radius: 10px;

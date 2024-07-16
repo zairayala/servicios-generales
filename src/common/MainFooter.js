@@ -8,8 +8,8 @@ export default function MainFooter() {
   return (
     <section id='MainFooter'>
       <div className='footer-img centered'>
-        <div className='row container'>
-          <div className='col'>
+        <div className='row container-lg row-cols-1 row-cols-md-3'>
+          <div className='col mb-5 mb-0-md'>
             <img src={logo} alt="" className='w-50 mb-4' />
             <p className='mb-5'>Empresa independiente que brinda una gama de servicios
               con mucha seriedad y responsabilidad.
@@ -70,12 +70,15 @@ export default function MainFooter() {
           </div>
         </div>
       </div>
-      <div className='footer-copyright d-flex justify-content-center align-items-center'>
-        <div><p>© 2023 <text>Servicios Generales.</text> Todos los derechos reservados</p></div>
-        <div className='d-flex justify-content-end social-media w-50'>
-          <div><Link to="#"><i class="bi bi-facebook"></i></Link></div>
-          <div><Link to="#"><i class="bi bi-instagram"></i></Link></div>
-          <div><Link to="#"><i class="bi bi-tiktok"></i></Link></div>
+      <div className='footer-copyright '>
+        <div className="container-lg d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div className='pb-3 pt-3 pb-0-md pt-0-md'><p>© 2023 <text>Servicios Generales.</text> Todos los derechos reservados</p></div>
+          <div className='d-flex justify-content-between social-media pb-3 pt-3 pb-0-md pt-0-md'>
+            <div><Link to="#"><i class="bi bi-facebook"></i></Link></div>
+            <div><Link to="#"><i class="bi bi-instagram"></i></Link></div>
+            <div><Link to="#"><i class="bi bi-tiktok"></i></Link></div>
+          </div>
+
         </div>
       </div>
     </section>

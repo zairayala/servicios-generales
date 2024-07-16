@@ -12,12 +12,12 @@ export default function Nosotros() {
 
   return (
     <>
-      <section id='Nosotros' className='spacing-2 container'>
-        <div className='centered'>
-          <div className='w-50 position-relative'>
+      <section id='Nosotros' className='spacing-3 container-lg'>
+        <div className='row row-cols-1 row-cols-md-2'>
+          <div className='col position-relative'>
             <img src={collage_service} alt="" className='img-fluid' />
           </div>
-          <div className='w-50 aboutus-content'>
+          <div className='col aboutus-content'>
             <div className='text-start'>
               <p className='title-header'><i className="bi bi-wrench-adjustable mr-auto"></i>SOBRE NOSOTROS</p>
               <h1 className='title-content'>Ofrecemos diversos servicios</h1>
@@ -28,8 +28,8 @@ export default function Nosotros() {
                 prolijo posible con los estándares de calidad exigidos en el
                 mercado actual.</p>
             </div>
-            <div className='centered mt-5'>
-              <div className='spacing-3 w-50'>
+            <div className='row justify-content-center mt-5'>
+              <div className='spacing-4 col'>
                 <div className='position-relative'>
                   <img src={solution} alt="" className='icono' />
                   <div className='icono-bg '></div>
@@ -40,7 +40,7 @@ export default function Nosotros() {
                   Además contribuir al desarrollo e investigación
                   de nuevas tecnologías</p>
               </div>
-              <div className='spacing-3 w-50'>
+              <div className='spacing-4 col'>
                 <div className='position-relative'>
                   <img src={idea} alt="" className='icono' />
                   <div className='icono-bg '></div>

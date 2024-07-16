@@ -11,9 +11,6 @@ export default function ServicesDetail() {
 
   const [servicioSeleccionado, setServicioSeleccionado] = useState([]);
 
-  const selectService = (values) => {
-    setServicioSeleccionado(values);
-  };
 
   useEffect(() => {
     setServicioSeleccionado(Service[service]);
@@ -49,7 +46,7 @@ export default function ServicesDetail() {
                 <li
                   className={`list-group-item ${servicioSeleccionado.id === values.id ? 'active' : ''}`}
                   key={values.id}
-                  onClick={() => selectService(values)}>{values.title}</li>
+                  onClick={() => setServicioSeleccionado(values)}>{values.title}</li>
               ))}
             </ul>
           </div>
