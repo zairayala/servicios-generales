@@ -75,7 +75,7 @@ export default function Contact() {
                 <div className="accordion-body">
                   <div className="form-contact">
                     <form action="https://formsubmit.co/ximzar123@gmail.com" className='form-contact' method='post'>
-                      <div className='d-flex'>
+                      <div className='content-between'>
                         <div className="">
                           <div className='content-between w-100'>
                             <span>NOMBRE/EMPRESA</span>
@@ -104,7 +104,7 @@ export default function Contact() {
                         </div>
 
                       </div>
-                      <div className="d-flex">
+                      <div className="content-between pt-4">
                         <div className=''>
                           <div className='content-between w-100'>
                             <span>TELÉFONO CELULAR</span>

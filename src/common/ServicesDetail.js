@@ -31,15 +31,15 @@ export default function ServicesDetail() {
             <img src={banner} alt="" className='img-fluid' />
             <div className='d-flex flex-column text-center position-absolute top-50 start-50 translate-middle'>
               <h2>Servicios</h2>
-              <p className='centered'><Link class="nav-link active" aria-current="page" to="/">Inicio</Link><i class="bi bi-chevron-compact-right"></i>Servicios </p>
+              <p className='centered'><Link class="toHome" aria-current="page" to="/">Inicio</Link><i class="bi bi-chevron-compact-right"></i>Servicios </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id='ServicesDetail' className='container spacing-2'>
-        <div className='row'>
-          <div className='col-3'>
+      <section id='ServicesDetail' className='container-lg spacing-2'>
+        <div className='row row-cols-1 row-cols-lg-2'>
+          <div className='col col-lg-3'>
             <ul className="list-group" id='list-group'>
               <li className="list-group-item">Selecciona un servicio</li>
               {Service.map((values) => (
@@ -50,38 +50,41 @@ export default function ServicesDetail() {
               ))}
             </ul>
           </div>
-          <div className='col-9'>
+          <div className='col col-lg-9'>
             <div className='pb-4' id='box-service'>
               <div className='centered row'>
+                <h2>{servicioSeleccionado.title}</h2>
+                <hr />
+
                 <div className='col'>
-                  <h2>{servicioSeleccionado.title}</h2>
-                  <hr />
                   <p>{servicioSeleccionado.descripcion}</p>
-                  <button className='box-description w-100' data-bs-toggle="button">
-                    <div data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" aria-pressed="true">
+                  <img src={servicioSeleccionado.img} alt="" className='img-fluid rounded' />
+                  <img src={servicioSeleccionado.img2} alt="" className='img-fluid mt-2 rounded' />
+
+                </div>
+                <div className='col'>
+                  <div className='box-description w-100'>
                       <p className='btnSrv d-flex justify-content-between'>Servicios incluidos
                         <div className='box-icon'><i className="icon-down bi bi-arrow-bar-down"></i></div>
                       </p>
-                    </div>
-                  </button>
-                </div>
-                <div className='col'>
-                  <img src={servicioSeleccionado.img} alt="" className='img-fluid' />
+                      <hr />
 
-                </div>
-                <div>
-                  <div className="collapse" id="collapseExample" dangerouslySetInnerHTML={{ __html: servicioSeleccionado.detalledescripcion }}>
+                      <div className='mt-3' dangerouslySetInnerHTML={{ __html: servicioSeleccionado.detalledescripcion }}>
+                    </div>
+
                   </div>
+
                 </div>
               </div>
             </div>
             <div>
+              <h2 className='form-content-title pt-2 pb-2'>Contáctanos aquí:</h2>
               <form action="https://formsubmit.co/ximzar123@gmail.com" className='form-contact' method='post'>
-                <div className='d-flex'>
-                  <div className=''>
+                <div className='content-between'>
+                  <div className="">
                     <div className='content-between w-100'>
                       <span>NOMBRE/EMPRESA</span>
-                      <i class="bi bi-person-fill"></i>
+                      <i className="bi bi-person-fill"></i>
                     </div>
                     <input
                       type="text"
@@ -90,10 +93,10 @@ export default function ServicesDetail() {
                       placeholder='Empresa123'
                       required />
                   </div>
-                  <div className=''>
+                  <div className="">
                     <div className='content-between w-100'>
                       <span>E-MAIL</span>
-                      <i class="bi bi-envelope-fill"></i>
+                      <i className="bi bi-envelope-fill"></i>
                     </div>
                     <input
                       type="email"
@@ -102,13 +105,15 @@ export default function ServicesDetail() {
                       placeholder='ejemplo@serviciosgenerales.com'
                       pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
                       required />
+
                   </div>
+
                 </div>
-                <div className='d-flex'>
+                <div className="content-between pt-4">
                   <div className=''>
                     <div className='content-between w-100'>
                       <span>TELÉFONO CELULAR</span>
-                      <i class="bi bi-telephone-fill"></i>
+                      <i className="bi bi-telephone-fill"></i>
                     </div>
                     <input
                       type="text"
@@ -121,27 +126,31 @@ export default function ServicesDetail() {
                   <div className=''>
                     SERVICIO<br />
                     <select name="service" id="" className='form-control-contact'>
-                      <option value="" disabled>
+                      <option value="" disabled selected>
                         Seleccione servicio requerido
                       </option>
                       {Service.map((values) => (
 
-                        <option 
-                        value={values.title} 
-                        key={values.id} 
-                        selected={servicioSeleccionado.id === values.id}>
+                        <option
+                          value={values.title}
+                          key={values.id}
+                          selected={servicioSeleccionado.id === values.id}
+
+                        >
                           {values.title}
                         </option>
 
                       ))}
 
                     </select>
+
                   </div>
+
                 </div>
-                <div className='text-area'>
+                <div className='text-area pt-1'>
                   <div className='content-between w-100'>
                     <span>MENSAJE (opcional)</span>
-                    <i class="bi bi-envelope-fill"></i>
+                    <i className="bi bi-envelope-fill"></i>
                   </div>
                   <textarea
                     name="message"
@@ -151,6 +160,7 @@ export default function ServicesDetail() {
                     className='form-control-contact'>
                   </textarea>
                 </div>
+
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_subject" value="Nueva solicitud de servicio" />
                 <input type="hidden" name="_next" value="http://localhost:3000/" />

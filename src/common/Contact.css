@@ -81,3 +81,7 @@
     background-color: var(--primary-color-three);
     color: var(--primary-color-one);
 }
+
+.content-between div{
+    width: 47%;
+}

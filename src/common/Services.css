@@ -27,7 +27,7 @@
 }
 
 .card-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Josefin Sans';
 }
@@ -77,15 +77,22 @@
     height: 3rem;
 }
 
-.slick-slide{
-    padding: 1rem;
-}
 
-.slick-list{
-    width: 90%;
-}
 
 .slick-slider{
     display: flex!important;
     justify-content: center;
+}
+
+.slick-slide{
+    padding: 10px;
+}
+.slick-prev{
+    left: -10px!important;
+}
+.slick-next{
+    right: -10px!important;
+}
+.slick-prev:before, .slick-next:before{
+    z-index: 99;
 }

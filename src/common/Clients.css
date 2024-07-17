@@ -2,7 +2,7 @@
     background-color: var(--primary-color-three);
 }
 
-#Clients .container .text-center .title-header {
+#Clients .container-lg .text-center .title-header {
     color: var(--primary-color-one);
 }
 
