@@ -15,7 +15,7 @@ export default function MainBanner() {
                         <img src={banner1} className="w-100 h-banner" alt="..." />
                         <div class="carousel-title top-50 start-50 translate-middle">
                             <h2>Soluciones para tu empresa</h2>
-                            <h1 className='banner-title'>Soluciones en cualquier sector</h1>
+                            <h1 className='banner-title'>Diversidad de servicios</h1>
                             <p>Máxima eficiencia en servicios personalizados para diversas industrias</p>
                             <div className='d-flex justify-content-center'>
                                 <a href="#Services" className='button3'>Servicios</a>

@@ -172,13 +172,13 @@ textarea{
   
   /* Estilos para móviles */
   @media (max-width: 576px) {
-    body {
-    }
-    #MainBanner{
-    }
     .carousel-title h1{
         font-size: 40px!important;
     }
+    .carousel-title p{
+        font-size: 15px!important;
+    }
+
     .button3{
         padding: .5rem 1rem!important;    
     }
