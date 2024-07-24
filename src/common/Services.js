@@ -105,7 +105,8 @@ const Services = () => {
 						<div className="card-body">
 							<h5 className="card-title">Trabajos eléctricos</h5>
 							<p className="card-text">Mantenimientos, preventivos y correctivos de instalaciones eléctricas en viviendas e
-								industrias, asi como de equipos eléctricos. Todo bajo las normas del CNE y seguro SCTR y respectivas EPPs.</p>
+								industrias, asi como de equipos eléctricos. Todo bajo las normas del CNE y seguro SCTR y respectivas EPPs. Realizamos trabajos de tableros eléctricos-Grupos electrógenos-Sistema de puesta a tierra, entre otros asi como bombas de agua ( Sumergibles, hidroneumático
+									y  de presón constante), aterramientos eléctricos, instalación y suministro de luminarias y accesorios</p>
 							<div onClick={() => navigate('/servicesDetail', { state: { service: 1 } })} className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</div>
 						</div>
 					</div>
@@ -124,7 +125,9 @@ const Services = () => {
 							<p className="card-text">Reparación, mantenimiento e
 								instalación de equipos de aire acondicionado y frío en
 								todas las marcas de centros comerciales, empresas
-								privadas, públicas y domésticas</p>
+								privadas, públicas y domésticas. Realizamos suministro e instalación de equipos de aire acondicionado 
+ ( equipos piso techo, equipos mini Split), suministro e instalación de equipos de refrigeración.
+  termostato digital, Tec 900E Power), suministro e instalación de tuberías y accesorio de cobre.</p>
 							<div onClick={() => navigate('/servicesDetail', { state: { service: 2 } })} className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</div>
 						</div>
 					</div>
@@ -142,7 +145,8 @@ const Services = () => {
 							<h5 className="card-title">Trabajos en pintura</h5>
 							<p className="card-text">Contamos con el personal técnico mas calificado y
 								equipos para trabajo en altura tipo andamios
-								colgantes certificados y andamios convencionales. Trabajos en impermealizaciones, empastados, texturas, barnizado de puertas, </p>
+								colgantes certificados y andamios convencionales. Trabajos en impermealizaciones, empastados, texturas, barnizado de puertas, aplicación DD en pisos parquets, pintura epoxica, señalización horizontal, pintado arquitectónico, textura decorativa ( Estucado
+									microcemento y escarchado)</p>
 							<div onClick={() => navigate('/servicesDetail', { state: { service: 3 } })} className='btnService'> <i class="bi bi-arrow-right mr-auto"></i>Leer más</div>
 						</div>
 					</div>
