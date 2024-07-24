@@ -64,7 +64,7 @@ export default function MainFooter() {
               </div>
               <div>
                 <h2><i class="bi bi-envelope-fill"></i>E-mail</h2>
-                <p>correo@gmail.com</p>
+                <p>sergemc.sac@gmail.com</p>
               </div>
             </div>
           </div>

@@ -38,7 +38,10 @@
     font-size: 25px;
     font-weight: 400;
 }
-
+.carousel-title h2{
+    color: var(--primary-color-one);
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+}
 .carousel-title .d-flex{
     margin-top: 2rem;
 }

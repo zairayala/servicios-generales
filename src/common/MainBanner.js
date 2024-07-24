@@ -12,38 +12,40 @@ export default function MainBanner() {
             <div id="carouselExampleControls" className="carousel slide position-relative" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={banner1} className="d-block w-100 h-banner" alt="..." />
-                        <div class="carousel-title d-none d-md-block top-50 start-50 translate-middle">
-                            <h2>Versatilidad y confiabilidad</h2>
-                            <h1 className='banner-title'>Expertos en servicios múltiples</h1>
-                            <p>Amplia gama de servicios de acuerdo a tus necesidades</p>
-                            <div className='d-flex justify-content-center'>
-                                <Link to="#" className='button3'>Servicios</Link>
-                                <Link to="#" className='button2'>Contacto</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={banner2} className="d-block w-100 h-banner" alt="..." />
-                        <div class="carousel-title d-none d-md-block top-50 start-50 translate-middle">
+                        <img src={banner1} className="w-100 h-banner" alt="..." />
+                        <div class="carousel-title top-50 start-50 translate-middle">
                             <h2>Soluciones para tu empresa</h2>
-                            <h1 className='banner-title'>Soluciones para distintos sectores</h1>
+                            <h1 className='banner-title'>Soluciones en cualquier sector</h1>
                             <p>Máxima eficiencia en servicios personalizados para diversas industrias</p>
                             <div className='d-flex justify-content-center'>
-                                <Link to="#" className='button3'>Servicios</Link>
-                                <Link to="#" className='button2'>Contacto</Link>
+                                <a href="#Services" className='button3'>Servicios</a>
+                                <a href="#Contact" className='button2 button2-sm'>Contacto</a>
                             </div>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={banner3} className="d-block w-100 h-banner" alt="..." />
-                        <div class="carousel-title d-none d-md-block top-50 start-50 translate-middle">
+                        <img src={banner2} className="w-100 h-banner" alt="..." />
+                        <div class="carousel-title top-50 start-50 translate-middle">
                             <h2>Seguridad y calidad</h2>
                             <h1 className='banner-title'>Excelencia de servicios</h1>
-                            <p>Brindamos resultados precisos, confiables y de calidad</p>
+                            <p>Brindamos resultados prolijos, confiables y con los estándares de calidad exigidos en el mercado actual.</p>
+
                             <div className='d-flex justify-content-center'>
-                                <Link to="#" className='button3'>Servicios</Link>
-                                <Link to="#" className='button2'>Contacto</Link>
+                                <a href="#Services" className='button3'>Servicios</a>
+                                <a href="#Contact" className='button2 button2-sm'>Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={banner3} className="w-100 h-banner" alt="..." />
+                        <div class="carousel-title top-50 start-50 translate-middle">
+                            <h2>Garantía y confiabilidad</h2>
+                            <h1 className='banner-title'>Amplia experiencia</h1>
+                            <p>Trabajamos con un equipo eficaz con más de 5 años de experiencia en el rubro retail.</p>
+
+                            <div className='d-flex justify-content-center'>
+                                <a href="#Services" className='button3'>Servicios</a>
+                                <a href="#Contact" className='button2 button2-sm'>Contacto</a>
                             </div>
                         </div>
                     </div>

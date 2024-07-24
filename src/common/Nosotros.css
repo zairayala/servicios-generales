@@ -65,3 +65,7 @@
 .content-frame2 svg path{
     fill: #fff;
 }
+.accordion-button:focus{
+    box-shadow: none;
+    border-color: none;
+}

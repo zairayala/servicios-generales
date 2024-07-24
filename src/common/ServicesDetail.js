@@ -37,39 +37,43 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      <section id='ServicesDetail' className='container-lg spacing-2'>
-        <div className='row row-cols-1 row-cols-lg-2'>
-          <div className='col col-lg-3'>
-            <ul className="list-group" id='list-group'>
+      <section id='ServicesDetail' className='container-lg spacing-3'>
+        <div className='row row-cols-1 row-cols-md-2'>
+          <div className='col col-md-3'>
+            <ul className="list-group pb-4" id='list-group'>
               <li className="list-group-item">Selecciona un servicio</li>
               {Service.map((values) => (
                 <li
                   className={`list-group-item ${servicioSeleccionado.id === values.id ? 'active' : ''}`}
                   key={values.id}
-                  onClick={() => setServicioSeleccionado(values)}>{values.title}</li>
+                  onClick={() => setServicioSeleccionado(values)}>{`${values.title} ${servicioSeleccionado.id === values.id ? '🡰' : ''}`}</li>
               ))}
             </ul>
           </div>
-          <div className='col col-lg-9'>
+          <div className='col col-md-9'>
             <div className='pb-4' id='box-service'>
-              <div className='centered row'>
-                <h2>{servicioSeleccionado.title}</h2>
-                <hr />
+              <h2>{servicioSeleccionado.title}</h2>
+              <hr />
+
+              <div className='centered row row-cols-1 row-cols-md-2'>
 
                 <div className='col'>
-                  <p>{servicioSeleccionado.descripcion}</p>
-                  <img src={servicioSeleccionado.img} alt="" className='img-fluid rounded' />
-                  <img src={servicioSeleccionado.img2} alt="" className='img-fluid mt-2 rounded' />
+                  <p className='services-box-description'>{servicioSeleccionado.descripcion}</p>
+                  <div className='d-flex flex-column align-items-center'>
+                  <img src={servicioSeleccionado.img} alt="" className='img-fluid rounded service-width'/>
+                  <img src={servicioSeleccionado.img2} alt="" className={`img-fluid mt-2 rounded ${servicioSeleccionado.img2 ? 'service-width':''}` } />
+
+                  </div>
 
                 </div>
                 <div className='col'>
                   <div className='box-description w-100'>
-                      <p className='btnSrv d-flex justify-content-between'>Servicios incluidos
-                        <div className='box-icon'><i className="icon-down bi bi-arrow-bar-down"></i></div>
-                      </p>
-                      <hr />
+                    <p className='btnSrv d-flex justify-content-between'>Servicios incluidos
+                      <div className='box-icon'><i className="icon-down bi bi-arrow-bar-down"></i></div>
+                    </p>
+                    <hr />
 
-                      <div className='mt-3' dangerouslySetInnerHTML={{ __html: servicioSeleccionado.detalledescripcion }}>
+                    <div className='mt-3 services-box-description' dangerouslySetInnerHTML={{ __html: servicioSeleccionado.detalledescripcion }}>
                     </div>
 
                   </div>
@@ -121,6 +125,7 @@ export default function ServicesDetail() {
                       name='phone'
                       placeholder='999999999'
                       pattern="[0-9]{9}"
+                      maxlength="9"
                       required />
                   </div>
                   <div className=''>

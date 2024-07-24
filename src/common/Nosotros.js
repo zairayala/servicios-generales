@@ -13,10 +13,7 @@ export default function Nosotros() {
   return (
     <>
       <section id='Nosotros' className='spacing-3 container-lg'>
-        <div className='row row-cols-1 row-cols-md-2'>
-          <div className='col position-relative'>
-            <img src={collage_service} alt="" className='img-fluid' />
-          </div>
+        <div className='row row-cols-1 row-cols-lg-2'>
           <div className='col aboutus-content'>
             <div className='text-start'>
               <p className='title-header'><i className="bi bi-wrench-adjustable mr-auto"></i>SOBRE NOSOTROS</p>
@@ -26,7 +23,8 @@ export default function Nosotros() {
                 con gran experiencia en el rubro retail y empresarial el cual le permitirá tener un servicio eficaz.
                 Brindamos trabajos lo más
                 prolijo posible con los estándares de calidad exigidos en el
-                mercado actual.</p>
+                mercado actual. Contamos con la capacidad de atender en <span className='fw-bolder'>Lima Metropolitana</span> con personal técnico, 
+equipos y herramientas disponibles las 24 horas.</p>
             </div>
             <div className='row justify-content-center mt-5'>
               <div className='spacing-4 col'>
@@ -54,6 +52,10 @@ export default function Nosotros() {
               </div>
             </div>
           </div>
+          <div className='col position-relative'>
+            <img src={collage_service} alt="" className='img-fluid' />
+          </div>
+
         </div>
       </section>
       <div className='position-absolute content-frame2 w-100'><Frame></Frame></div>

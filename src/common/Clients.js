@@ -49,12 +49,12 @@ export default class Clients extends Component {
         };
 
         return (
-            <section id='Clients'>
-                <div className='container-lg centered flex-column spacing-2'>
+            <section id='Clients' className="spacing-3">
+                <div className='container-lg centered flex-column'>
                     <div className='text-center align-self-center'>
                         <p className='title-header'><i className="bi bi-wrench-adjustable mr-auto"></i>NUESTROS CLIENTES</p>
-                        <h1 className='title-content'>Trabajamos con diversos clientes</h1>
-                        <p className='text-content'>Brindamos distintos servicios generales diseñados para simplificar y optimizar tu negocio ofreciendo resultados de calidad.</p>
+                        <h1 className='title-content'>Realizamos servicios en distintas empresas</h1>
+                        <p className='text-content'>Brindamos distintos servicios generales en Lima Metropolitana diseñados para simplificar y optimizar tu negocio ofreciendo resultados de calidad.</p>
                     </div>
                     <Slider {...settings} className="mt-4 w-100 align-self-center">
                         <div>

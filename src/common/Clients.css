@@ -10,6 +10,11 @@
     fill: var(--primary-color-three) !important;
 }
 
-#Clients .slick-slider .slick-prev, #Clients .slick-slider .slick-next{
+.slick-prev, .slick-next{
     display: none!important;
+}
+
+.logo-style{
+    height: 100px;
+    object-fit: scale-down;
 }

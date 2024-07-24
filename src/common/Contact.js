@@ -104,7 +104,7 @@ export default function Contact() {
                         </div>
 
                       </div>
-                      <div className="content-between pt-4">
+                      <div className="content-between pt-2">
                         <div className=''>
                           <div className='content-between w-100'>
                             <span>TELÉFONO CELULAR</span>
@@ -116,6 +116,7 @@ export default function Contact() {
                             name='phone'
                             placeholder='999999999'
                             pattern="[0-9]{9}"
+                            maxlength="9"
                             required />
                         </div>
                         <div className=''>
@@ -140,7 +141,7 @@ export default function Contact() {
                         </div>
 
                       </div>
-                      <div className='text-area pt-1'>
+                      <div className='text-area'>
                         <div className='content-between w-100'>
                           <span>MENSAJE (opcional)</span>
                           <i className="bi bi-envelope-fill"></i>
@@ -150,7 +151,8 @@ export default function Contact() {
                           id=""
                           cols="30"
                           rows="10"
-                          className='form-control-contact'>
+                          className='form-control-contact'
+                          >
                         </textarea>
                       </div>
 

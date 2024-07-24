@@ -96,3 +96,14 @@
 .slick-prev:before, .slick-next:before{
     z-index: 99;
 }
+
+#Services .container-lg .d-flex .button .bi{
+    color: var(--primary-color-three);
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+#Services .container-lg .d-flex .button .bi:hover{
+    opacity: 70%;
+    cursor: pointer;
+}

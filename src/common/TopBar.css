@@ -6,9 +6,9 @@
 .top-bar .container-lg .contact-info div{
     padding-left: 2rem;
 }
-.top-bar .container-lg {
+.top-bar .container-lg {   
     font-size: 15px!important;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
 }
 .top-bar .container-lg .contact-info div i{
     padding-right: 7px;

@@ -15,7 +15,7 @@ export default function TopBar() {
                             <i className="bi bi-whatsapp"></i>+51 966 968 211 y +51 942 025 618
                         </div>
                         <div>
-                            <i className="bi bi-envelope"></i>correo@gmail.com
+                            <i className="bi bi-envelope"></i>sergemc.sac@gmail.com
                         </div>
                         <div>
                             <i className="bi bi-geo-alt"></i>Jr. Junín Mz. Ñ10 Lote 4, Pamplona Alta - S.J.M

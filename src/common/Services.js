@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useRef } from "react";
 import './Services.css';
 import { Link, useNavigate } from 'react-router-dom';
 import srv1 from '../assets/services/srv1.jpg'
@@ -17,6 +17,13 @@ import "slick-carousel/slick/slick-theme.css";
 const Services = () => {
 
 	const navigate = useNavigate();
+	let sliderRef = useRef(null);
+	const next = () => {
+		sliderRef.slickNext();
+	};
+	const previous = () => {
+		sliderRef.slickPrev();
+	};
 
 	const settings = {
 		dots: false,
@@ -26,8 +33,8 @@ const Services = () => {
 
 
 		infinite: true,
-		autoplay: false,
-		autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		pauseOnHover: true,
 
 		responsive: [
@@ -64,7 +71,10 @@ const Services = () => {
 					<h1 className='title-content'>Ofrecemos diversos servicios</h1>
 					<p className='text-content'>Brindamos distintos servicios generales diseñados para simplificar y optimizar tu negocio ofreciendo resultados de calidad.</p>
 				</div>
-				<Slider {...settings} className='mt-4 mb-4'>
+				<Slider ref={slider => {
+					sliderRef = slider;
+				}}
+					{...settings} className='mt-4 mb-4'>
 					<div className="card">
 						<div className='centered flex-column align-items-center'>
 							<img src={srv1} className="card-img-top" alt="" />
@@ -199,6 +209,15 @@ const Services = () => {
 					</div>
 
 				</Slider>
+				<div className="d-flex justify-content-center">
+					<div className="button p-2" onClick={previous}>
+						<i className="bi bi-arrow-left-circle-fill"></i>
+					</div>
+					<div className="button p-2" onClick={next}>
+						<i className="bi bi-arrow-right-circle-fill"></i>
+
+					</div>
+				</div>
 
 			</div>
 			<div className='position-absolute content-frame w-100'><Frame></Frame></div>
@@ -207,3 +226,4 @@ const Services = () => {
 	)
 }
 export default Services;
+

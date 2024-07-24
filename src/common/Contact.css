@@ -12,7 +12,7 @@
 
 .form-contact .row, .form-contact .text-area{
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
 }
 
 .form-contact{
@@ -42,10 +42,6 @@
 .form-control-contact:focus{
     outline: none!important;
     border: 1px solid var(--primary-color-one);
-}
-
-.text-area textarea{
-    height: 100px!important;
 }
 
 .contact-info p{
@@ -84,4 +80,7 @@
 
 .content-between div{
     width: 47%;
+}
+#accordionExample{
+    height: 550px;
 }

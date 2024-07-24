@@ -52,3 +52,12 @@
 .nav-services {
     cursor: pointer;
 }
+
+.nav-service{
+    padding: .5rem 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-service:hover{
+    opacity: 80%;
+}

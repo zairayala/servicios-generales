@@ -105,5 +105,13 @@
 .form-content-title{
     color: var(--primary-color-one);
     font-weight: 500;
-    font-size: 46px;
+    font-size: 2rem;
+}
+.services-box-description{
+    font-weight: 300;
+}
+.service-width{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
 }
