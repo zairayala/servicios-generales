@@ -46,7 +46,7 @@ export default function ServicesDetail() {
                 <li
                   className={`list-group-item ${servicioSeleccionado.id === values.id ? 'active' : ''}`}
                   key={values.id}
-                  onClick={() => setServicioSeleccionado(values)}>{`${values.title} ${servicioSeleccionado.id === values.id ? '🡰' : ''}`}</li>
+                  onClick={() => setServicioSeleccionado(values)}>{`${values.title} ${servicioSeleccionado.id === values.id ? '←' : ''}`}</li>
               ))}
             </ul>
           </div>
