@@ -162,7 +162,7 @@ const Services = () => {
 
 						<div className="card-body">
 							<h5 className="card-title">Trabajos en Drywall</h5>
-							<p className="card-text">-Instalaciones en drywall, cielo raso, tabiqueria en drywall, cielo raso en baldosas, diseños arquitectonicos, tableros eléctricos, grupos electrógenos, sistema de puesta a tierra, entre otros, bombas de agua ( Sumergibles, hidroneumático y de presón constante)
+							<p className="card-text">Instalaciones en drywall, cielo raso, tabiqueria en drywall, cielo raso en baldosas, diseños arquitectonicos, tableros eléctricos, grupos electrógenos, sistema de puesta a tierra, entre otros, bombas de agua ( Sumergibles, hidroneumático y de presón constante)
 								, aterramientos eléctricos
 								, instalación y suministro de luminarias y accesorios
 								, electrificación
