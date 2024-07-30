@@ -1,26 +1,22 @@
 .top-bar{
     background-color: var(--primary-color-two);
-    color: #ffffff;
+    color: #ffffff!important;
     font-family: 'Nunito', sans-serif;
 }
 .top-bar .container-lg .contact-info div{
     padding-left: 2rem;
 }
 .top-bar .container-lg {   
-    font-size: 15px!important;
+    font-size: 15px;
     padding: 1rem 1.5rem;
 }
 .top-bar .container-lg .contact-info div i{
     padding-right: 7px;
-    color: var(--primary-color-one);
+    color: var(--primary-color-one)!important;
     font-size: 17px;
 }
 .top-bar .container-lg .d-flex p{
     padding-left: 2rem;
-}
-.top-bar{
-    background-color: var(--primary-color-two);
-    color: #ffffff;
 }
 .top-bar .container div p{
     margin-top: 1rem!important;
@@ -30,4 +26,16 @@
     color: #ffffff;
     border-radius: 5px;
     padding: 5px 15px;
+    transition: 0.2s ease-in-out;
+} 
+.button1:hover{
+    background-color: #4a88a7c2;
+    color: #ffffff;
+}
+.contact-info div a{
+    color: #ffffff!important;
+    transition: 0.2s ease-in-out;
+}
+.contact-info div a:hover{
+    opacity: 80%;
 }

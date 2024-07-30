@@ -39,6 +39,7 @@
 
 .social-media div:hover{
     background-color: var(--primary-color-one);
+    cursor: pointer;
 }
 
 .social-media div a{

@@ -2,6 +2,7 @@ import React from 'react'
 import { Service } from './service.js';
 import './Contact.css'
 import electrician from '../assets/electrician.png'
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -29,31 +30,32 @@ export default function Contact() {
                 <div className="accordion-body">
                   <div className='contact-info'>
                     <div className='d-flex'>
-                      <i className="bi bi-geo-alt-fill"></i>
+                      <i className="bi bi-geo-alt"></i>
                       <p>
                         <span>DIRECCIÓN</span>
                         <span>Jr. Junín Mz. Ñ10 Lote 4 Sector
-                          Leoncio Prado, Pamplona Alta - S.J.M</span>
+                          Leoncio Prado, Pamplona Alta - S.J.M, Lima Metropolitana</span>
                       </p>
                     </div>
 
-                    <div className='d-flex'>
-                      <i className="bi bi-geo-alt-fill"></i>
+                    <Link to="https://wa.me/51966368211?text=Hola!%20Estoy%20interesado%20en%20requerir%20sus%20servicios..." target='blank'><div className='d-flex'>
+                      <i className="bi bi-whatsapp"></i>
                       <p>
-                        <span>TELÉFONO</span>
+                        <span>TELÉFONO (Click aquí)</span>
                         <span>942 025 618 - 966 968 211</span>
                       </p>
-                    </div>
+                    </div></Link>
+                    <Link to="mailto:sergemc.sac@gmail.com?subject=CONSULTA DEL SERVICIO DE <servicio>" target='blank'>
                     <div className='d-flex'>
-                      <i className="bi bi-geo-alt-fill"></i>
+                      <i className="bi bi-envelope"></i>
                       <p>
-                        <span>E-MAIL</span>
-                        <span>correo@gmail.com</span>
+                        <span>E-MAIL (Click aquí)</span>
+                        <span>sergemc.sac@gmail.com</span>
                       </p>
-                    </div>
+                    </div></Link>
 
                     <div className='d-flex'>
-                      <i className="bi bi-geo-alt-fill"></i>
+                      <i className="bi bi-clock"></i>
                       <p>
                         <span>HORARIO ATENCIÓN</span>
                         <span>De Lunes a Sábado</span>

@@ -74,7 +74,7 @@ export default function MainFooter() {
         <div className="container-lg d-flex flex-column flex-md-row justify-content-between align-items-center">
           <div className='pb-3 pt-3 pb-0-md pt-0-md'><p>© 2023 <text>Servicios Generales.</text> Todos los derechos reservados</p></div>
           <div className='d-flex justify-content-between social-media pb-3 pt-3 pb-0-md pt-0-md'>
-            <div><Link to="#"><i class="bi bi-facebook"></i></Link></div>
+            <div><Link to="https://www.facebook.com/profile.php?id=100064184679016" target='blank'><i class="bi bi-facebook"></i></Link></div>
             <div><Link to="#"><i class="bi bi-instagram"></i></Link></div>
             <div><Link to="#"><i class="bi bi-tiktok"></i></Link></div>
           </div>
