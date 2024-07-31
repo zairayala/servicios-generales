@@ -42,7 +42,7 @@ export default function Contact() {
                       <i className="bi bi-whatsapp"></i>
                       <p>
                         <span>TELÉFONO (Click aquí)</span>
-                        <span>942 025 618 - 966 968 211</span>
+                        <span>942 025 618 - 966 368 211</span>
                       </p>
                     </div></Link>
                     <Link to="mailto:sergemc.sac@gmail.com?subject=CONSULTA DEL SERVICIO DE <servicio>" target='blank'>

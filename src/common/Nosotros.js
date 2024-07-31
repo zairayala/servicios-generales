@@ -11,32 +11,18 @@ export default function Nosotros() {
   }, []);
 
   const downlandArchive = (downland_number) => {
-    const button1 = document.querySelector('.dw-1');
-    const button2 = document.querySelector('.dw-2');
+    const button = document.querySelector(`.dw-${downland_number}`);
 
-    if(downland_number==1){
-      button1.classList.add('load');
+    button.classList.add('load');
 
-      setTimeout(function () {
-        button1.classList.add('done');
-      }, 1000);
-  
-      setTimeout(function () {
-        button1.classList.remove('load', 'done');
-      }, 5000)
-       
-    }else{
-      button2.classList.add('load');
+    setTimeout(() => {
+      button.classList.add('done');
+    }, 1000);
 
-      setTimeout(function () {
-        button2.classList.add('done');
-      }, 1000);
-  
-      setTimeout(function () {
-        button2.classList.remove('load', 'done');
-      }, 5000);
-       
-    }
+    setTimeout(() => {
+      button.classList.remove('load', 'done');
+    }, 5000)
+
 
   };
 

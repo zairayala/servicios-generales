@@ -60,7 +60,7 @@ export default function MainFooter() {
               </div>
               <div>
                 <h2><i class="bi bi-telephone-fill"></i>Teléfono</h2>
-                <p>942 025 618 - 966 968 211</p>
+                <p>942 025 618 - 966 368 211</p>
               </div>
               <div>
                 <h2><i class="bi bi-envelope-fill"></i>E-mail</h2>
