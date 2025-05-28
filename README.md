@@ -34,10 +34,10 @@
 
 ### 💼 Sección de servicios
 ![Captura de pantalla 2025-05-28 143106](https://github.com/user-attachments/assets/fc4e564a-9a0c-416c-80d1-4b73a1264f49)
+![Captura de pantalla 2025-05-28 143523](https://github.com/user-attachments/assets/50bee12e-2cfc-4910-bec9-899bda456da9)
 
 ### 📞 Contacto
 ![Captura de pantalla 2025-05-28 143137](https://github.com/user-attachments/assets/703ce628-fe0c-4036-9a38-bfcf80017404)
-![Captura de pantalla 2025-05-28 143523](https://github.com/user-attachments/assets/50bee12e-2cfc-4910-bec9-899bda456da9)
 
 
 
