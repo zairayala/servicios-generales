@@ -37,6 +37,7 @@
 
 ### 📞 Contacto
 ![Captura de pantalla 2025-05-28 143137](https://github.com/user-attachments/assets/703ce628-fe0c-4036-9a38-bfcf80017404)
+![Captura de pantalla 2025-05-28 143523](https://github.com/user-attachments/assets/50bee12e-2cfc-4910-bec9-899bda456da9)
 
 
 
