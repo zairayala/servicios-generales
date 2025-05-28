@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+![Captura de pantalla 2025-05-28 143046](https://github.com/user-attachments/assets/59f4cd72-b769-44c4-9bff-8ea5fa98d8f1)# 🛠️ Sergemc Servicios Generales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Sergemc** es una página web institucional creada para una empresa de servicios generales. El sitio ofrece información clara y profesional sobre los servicios disponibles, fomenta el contacto directo con clientes potenciales y está optimizado para una buena experiencia en todos los dispositivos.
 
-## Available Scripts
+🔗 **Sitio en vivo**: [sergemcserviciosgenerales.netlify.app](https://sergemcserviciosgenerales.netlify.app/)
 
-In the project directory, you can run:
+📅 **Año de desarrollo**: 2024
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Características principales
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🖥️ Página institucional moderna y responsiva
+- 📱 Adaptado para dispositivos móviles y tablets
+- 📞 Sección de contacto con botón directo a WhatsApp
+- 💼 Secciones informativas sobre los servicios que ofrece la empresa
+- 🌐 Despliegue rápido y gratuito usando Netlify
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧪 Tecnologías utilizadas
 
-### `npm run build`
+- **React**
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Netlify** (para el despliegue)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼 Capturas del sitio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Agregá las capturas de pantalla en una carpeta `screenshots/` si querés mostrarlas aquí visualmente en GitHub.
 
-### `npm run eject`
+```markdown
+### 🏠 Página de inicio
+![Captura de pantalla 2025-05-28 143046](https://github.com/user-attachments/assets/97bb7808-3c92-4dc8-ba28-53f66a40360c)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 💼 Sección de servicios
+![Captura de pantalla 2025-05-28 143106](https://github.com/user-attachments/assets/ed6ff0f8-16b9-4f3b-92f2-95206d60f92c)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📞 Contacto
+![Captura de pantalla 2025-05-28 143137](https://github.com/user-attachments/assets/7412ee84-e82b-4aef-bdfe-c3bb46ac5b93)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
