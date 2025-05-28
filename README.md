@@ -1,4 +1,4 @@
-![Captura de pantalla 2025-05-28 143046](https://github.com/user-attachments/assets/59f4cd72-b769-44c4-9bff-8ea5fa98d8f1)# 🛠️ Sergemc Servicios Generales
+# 🛠️ Sergemc Servicios Generales
 
 **Sergemc** es una página web institucional creada para una empresa de servicios generales. El sitio ofrece información clara y profesional sobre los servicios disponibles, fomenta el contacto directo con clientes potenciales y está optimizado para una buena experiencia en todos los dispositivos.
 
@@ -20,25 +20,23 @@
 
 ## 🧪 Tecnologías utilizadas
 
-- **React**
-- **HTML**
-- **CSS**
+- **HTML5**
+- **CSS3**
 - **JavaScript**
 - **Netlify** (para el despliegue)
 
 ---
 
-## 🖼 Capturas del sitio
+## 🖼 Algunas capturas del sitio
 
-> Agregá las capturas de pantalla en una carpeta `screenshots/` si querés mostrarlas aquí visualmente en GitHub.
-
-```markdown
 ### 🏠 Página de inicio
-![Captura de pantalla 2025-05-28 143046](https://github.com/user-attachments/assets/97bb7808-3c92-4dc8-ba28-53f66a40360c)
+![Captura de pantalla 2025-05-28 143046](https://github.com/user-attachments/assets/7f180a20-d00d-49dc-a4b5-2d2f76fd558e)
 
 ### 💼 Sección de servicios
-![Captura de pantalla 2025-05-28 143106](https://github.com/user-attachments/assets/ed6ff0f8-16b9-4f3b-92f2-95206d60f92c)
+![Captura de pantalla 2025-05-28 143106](https://github.com/user-attachments/assets/fc4e564a-9a0c-416c-80d1-4b73a1264f49)
 
 ### 📞 Contacto
-![Captura de pantalla 2025-05-28 143137](https://github.com/user-attachments/assets/7412ee84-e82b-4aef-bdfe-c3bb46ac5b93)
+![Captura de pantalla 2025-05-28 143137](https://github.com/user-attachments/assets/703ce628-fe0c-4036-9a38-bfcf80017404)
+
+
 
